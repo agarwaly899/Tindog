@@ -50,8 +50,8 @@ h3{
 
 /* Title images */
 #title{
-  background-color: #ff4c68;
-  color: white;
+  background-color: #00bcd4;
+  color: black;
 }
 .title-image{
   width: 60%;
@@ -68,19 +68,20 @@ h3{
 
 }
 .pros-icon{
-  color: #ef8172;
+  color: #42dee1;
   margin-bottom: 1rem;
 }
 .pros-icon:hover{
-  color: #ff4c68;
+  color: #00bcd4;
 }
 .pros-box{
   padding: 5%;
 }
  #features{
    text-align: center;
+   color: white;
    padding: 7% 10%;
-   background-color: white;
+   background-color: black;
    position: relative;
    z-index: 1;
  }
@@ -88,8 +89,8 @@ h3{
 #testimonials{
 
   text-align: center;
-  background-color: #ef8172;
-  color: white;
+  background-color: #42dee1;
+  color: black;
 }
 .testimonial-img{
   width: 10%;
@@ -98,7 +99,7 @@ h3{
 }
 
 #press{
-  background-color: #ef8172;
+  background-color: #42dee1;
   text-align: center;
   padding-bottom: 5%;
 }
@@ -109,14 +110,30 @@ h3{
 .carousel-item{
   padding: 7% 15%;
 }
+.carousel-control-next-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 
+}
+.carousel-control-prev-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
 /* pricing section */
 #pricing{
   padding: 5% 10%;
   text-align: center;
+  color: white;
+  background-color: black;
 }
 .pricing-col{
+  background-color: black;
   padding: 3% 2%;
+}
+.card{
+  background-color: black;
+  border-color: white;
+}
+.card-header{
+  background-color: #323232;
 }
 
 @media (max-width: 1028px){
@@ -131,14 +148,14 @@ h3{
 
 /* cta section */
 #cta{
-  background-color: #ff4c68;
+  color: black;
+  background-color: #00bcd4;
   text-align: center;
   padding: 7% 12%;
 }
 .cta-quote{
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  color: white;
   font-size: 3.5rem;
   line-height: 1.5;
 }
@@ -146,9 +163,10 @@ h3{
 /* footer section */
 #footer{
   padding: 7% 12%;
-  background-color: white;
+  background-color: black;
+  color: white;
   text-align: center;
 }
 .social-icon{
-  margin: 20px 10px; 
+  margin: 20px 10px;
 }
